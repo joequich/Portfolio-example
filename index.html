@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Portfolio - Webpage</title>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css"> 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:500i|Montserrat:400,900i" rel="stylesheet">  
+</head>
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!--Nav-bar-->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>     
+        </button>
+        <a class="navbar-brand" href="#">joequich</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#i">I</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Main-->
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-xs-12">
+        <img class="img-circle center-block img-responsive" data-toggle="tooltip" title="A logo" src="http://via.placeholder.com/400.png/09f/fff">
+        <br>
+        <div class="caption text-center">
+         <p>Hi, my name is Joseph and this is my portfolio...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--I-->
+  <div id="i" class="container-fluid text-center">
+    <h3>About me</h3>
+    <p><em>I love music!</em></p>
+    <p class="text-justify">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae interdum mauris. Morbi id interdum risus. Etiam et tempor nisl. Nullam sit amet sagittis risus. Fusce cursus dolor vel dolor luctus commodo. Nunc a eros quis nulla feugiat dapibus. Donec consectetur justo ut sem maximus venenatis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae interdum mauris. Morbi id interdum risus. Etiam et tempor nisl. Nullam sit amet sagittis risus. Fusce cursus dolor vel dolor luctus commodo. Nunc a eros quis nulla feugiat dapibus. Donec consectetur justo ut sem maximus venenatis.</p>
+    <br>
+  </div>
+  <!--Projects-->
+  <div id="projects" class="bg-g">
+    <div class="container-fluid text-center">    
+    <h2>My Projects</h2><br>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="thumbnail">
+        <p>First Project - Tribute to Avicii</p>
+        <img src="http://via.placeholder.com/300.png/09f/fff" class="img-responsive center-block" alt="Image" width="300" height="300">
+        </div>
+      </div>
+      <div class="col-sm-6"> 
+        <div class="thumbnail">
+        <p>...</p>
+        <img src="http://via.placeholder.com/300.png/09f/fff" class="img-responsive center-block" alt="Image" width="300" height="300">
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!--Contacts-->
+  <div id="contact">    
+    <div class="container-fluid">
+      <h2 class="text-center">CONTACT ME</h2><br>
+        <div class="row">
+          <div class="col-sm-5">
+            <p>Contact me and I will get in touch with you within 24 hours.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> Lorem, Ipsum</p>
+            <p><span class="glyphicon glyphicon-phone"></span> +00 987654321</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> loremipsum@example.com</p> 
+          </div>
+          <div class="col-sm-7">
+            <form>
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row">
+              <div class="col-sm-3 col-sm-offset-9 form-group">
+                <button class="btn btn-danger" type="reset">Reset</button>
+                <button class="btn btn-default pull-right" type="submit">Send</button>
+              </div>
+            </div> 
+            </form>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!--Footer-->
+  <footer class="text-center">
+      <a class="up-arrow" href="#home" data-toggle="tooltip" title="TO TOP">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <hr>
+      <p>Coded by <strong>Joseph Quispe</strong></p>
+  </footer>
+  <!--scripts-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script  src="js/index.js"></script>
+</body>
+</html>
